@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ZMCL is an independent desktop launcher for Minecraft: Java Edition.">
+  <title>ZMCL Home Page</title>
+  <style>
+    body {
+      margin: 0;
+      background: #e4ebf5;
+      color: #15243b;
+      font: 1rem/1.5 Georgia, "Times New Roman", serif;
+    }
+    .page {
+      width: min(42rem, calc(100% - 2rem));
+      margin: 2rem auto;
+      background: #fff;
+      border: 1px solid #48658c;
+    }
+    header {
+      padding: 1rem;
+      background: #1b3964;
+      color: #fff;
+    }
+    h1 { margin: 0; font-size: 1.75rem; }
+    nav {
+      padding: .4rem 1rem;
+      border-bottom: 1px solid #48658c;
+      background: #d3e1f4;
+      font-family: Arial, sans-serif;
+    }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .25rem 1.5rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    a { color: #003d86; }
+    a:visited { color: #553579; }
+    a:focus-visible { outline: 2px solid #174e91; outline-offset: 3px; }
+    main { padding: .75rem 1rem 1rem; }
+    section + section { margin-top: 1.25rem; }
+    h2 {
+      margin: 0 0 .5rem;
+      border-bottom: 1px solid #9aacca;
+      font-size: 1.2rem;
+    }
+    p { margin: .5rem 0; }
+    footer {
+      padding: .45rem 1rem;
+      background: #edf2fa;
+      border-top: 1px solid #9aacca;
+      font-size: .875rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Zero Minecraft Launcher</h1>
+    </header>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#sign-in">Microsoft Sign-in</a></li>
+        <li><a href="https://github.com/catrix-dev/zmcl-web">GitHub</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About ZMCL</h2>
+        <p>ZMCL is an independent desktop launcher for Minecraft: Java Edition. It lets players install game versions, manage separate instances, and launch the game.</p>
+        <p lang="zh-Hans">ZMCL 是一个独立开发的 Minecraft Java 版桌面启动器，可用于安装游戏版本、管理实例和启动游戏。</p>
+      </section>
+      <section id="sign-in">
+        <h2>Microsoft Sign-in</h2>
+        <p>ZMCL is applying for access to Minecraft Java game services. Microsoft sign-in lets the launcher verify a player's Java Edition entitlement and load their Minecraft profile before starting the game.</p>
+        <p>Players sign in on Microsoft's website using their web browser or a device code from the launcher.</p>
+      </section>
+    </main>
+    <footer>Copyright © 2026 ZMCL</footer>
+  </div>
+</body>
+</html>
